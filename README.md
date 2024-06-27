@@ -74,7 +74,6 @@ Timestamps having microseconds may or may not be valuable. \
 I would think in most cases they wouldn't be important and could be truncated for readability. \
 However transaction histories may be quite fast in high frequency trading so it may be best to leave them. 
 
-
 #### Error Handling
 Error handling is currently basic. \
 It would be good to put futher effort in to figure out when: 
@@ -84,6 +83,9 @@ It would be good to put futher effort in to figure out when:
 
 #### Typing / Parameterization
 Most of the functions have types specified with the parameters and returns but a few got left out such as the logging functions 
+
+#### DocStrings
+Need to add docstrings to functions and class
 
 #### Value normalization
 There are some cases when I am using the built in float and some where I let NumPy handle floats. \
