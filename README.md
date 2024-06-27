@@ -1,7 +1,7 @@
 # Overview
 This script uses Gemini.com's public Rest API to look for deviation in currency pair prices
 
-## Docker
+## Docker (PREFERRED)
 ### Build Docker Image
 
 docker build . -t gemini:local
